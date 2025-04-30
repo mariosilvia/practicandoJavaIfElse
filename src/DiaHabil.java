@@ -11,6 +11,7 @@ public class DiaHabil {
 
         System.out.println("Digite el día de la semana, en minúscula: ");
         dia = scanner.nextLine();
+
         /*
          if (dia.equals("lunes") || dia.equals("martes") || dia.equals("miercoles") || dia.equals("jueves") || dia.equals("viernes")){
             System.out.println("Es un día hábil: " + dia);
@@ -38,5 +39,7 @@ public class DiaHabil {
             default:
                 System.out.println("Favor digite un día válido y en minúscula");
         }
+
+        scanner.close();
     }
 }
